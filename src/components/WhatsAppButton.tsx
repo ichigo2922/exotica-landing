@@ -2,8 +2,7 @@ import React from 'react';
 
 export const WhatsAppButton: React.FC = () => {
   // WhatsApp business number for Exotic Interior (format: +countrycode phonenumber)
-  // Replace with your actual WhatsApp business number
-  const phoneNumber = '+919876543210'; // Default - update this with actual number
+  const phoneNumber = '+918919445788';
   const message = 'Hello! I\'m interested in your interior design services. Can you tell me more about your offerings?';
   
   // Create WhatsApp link
