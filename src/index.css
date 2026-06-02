@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --color-coral: #D34E36;
+  --color-coral-dark: #B93C27;
+  --color-cream: #FBFBFA;
+  --color-charcoal: #1C1C1C;
+  --color-gold: #C5A880;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+  }
+  
+  /* Focus ring for keyboard accessibility */
+  *:focus-visible {
+    outline: 2px solid var(--color-coral);
+    outline-offset: 4px;
+  }
+}
