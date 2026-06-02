@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { WhatsAppButton } from './components/WhatsAppButton';
 
 // TypeScript Interfaces
 interface Project {
@@ -931,6 +932,8 @@ export default function App() {
           </div>
         </section>
 
+        {/* WhatsApp Chat Button */}
+        <WhatsAppButton />
       </main>
     </div>
   );
